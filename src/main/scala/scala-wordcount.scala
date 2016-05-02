@@ -22,7 +22,7 @@ object WordCount {
 
     //replace stop words to ""
     for(i<- 0 to (remover.length-1)){
-      tmp_words = tmp.filter(x=>(!x.contains(remover(i),"")))
+      tmp_words = tmp.filter(x=>(!x.contains(remover(i))))
       tmp = tmp_words
     }
 
