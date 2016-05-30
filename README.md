@@ -1,24 +1,15 @@
 # kmu-cs-hot-topics-161
 A repository to share course materials in the KMU CS Hot Topics in BigData Processing
 
-## The first homework
-You have to write a Hadoop job that selects top-K hash tags using input tweets.
-The program has to get the input tweets path, output directory, and the k (ex. hadoop jar TopK.jar TopK /user/cloudera/tweets.txt /user/cloudera/output 100)
-
-
-### What to Submit
-* The complete and working source code
-* The output file generated when the k is 100 
-
-### Submission Method
-1. Fork a branch (kmu-cs-hot-topics-161) to your account
-2. Switch to homework-1 branch
-3. Do your own work while making intermediate commits to track changes
-4. After the implementation is complete, make a Pull Request to the kmu-leeky/kmu-cs-hot-topics-161 homework-1 branch
-
-### Due
-The homework due is March 18th. 
-
-### Input Tweets Download
-https://s3.ap-northeast-2.amazonaws.com/kmu-cs-leeky-courses/BigData/DataSets/tweets.txt
+Due	in	two	weeks	(June	3rd)
+• A	Spark	scala file	to	run	FPGrowth and	sbt file
+• In	your	course	repository	– branch	name:	homework-3
+• Add	comments	to	FPGrowth.scala line	by	line	to	understand	what	each	line	 does
+• Need	to	do	only	two	functions
+• genFreqItems()	- https://github.com/apache/spark/blob/master/mllib/src/main/scala/org/apache/spark/mllib
+/fpm/FPGrowth.scala#L234
+• genFreqItemsets()	- https://github.com/apache/spark/blob/master/mllib/src/main/scala/org/apache/spark/mllib
+/fpm/FPGrowth.scala#L260
+• Fork	spark	repository	and	add	comments	there,	and	make	a	commit
+• Send	me	the	commit	link
 
